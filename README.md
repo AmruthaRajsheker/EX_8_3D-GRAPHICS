@@ -51,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-
 ### MyGLRenderer.java:
 ```java
 package com.example.ex08;
@@ -81,6 +80,8 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         gl.glShadeModel(GL10.GL_SMOOTH);
         gl.glDisable(GL10.GL_DITHER);
     }
+```
+```java
     @Override
     public void onSurfaceChanged(GL10 gl, int width, int height) {
         if (height == 0) height = 1;
@@ -92,8 +93,6 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         gl.glMatrixMode(GL10.GL_MODELVIEW);
         gl.glLoadIdentity();
     }
-```
-```java
     @Override
     public void onDrawFrame(GL10 gl) {
         gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT);
@@ -215,6 +214,8 @@ class Cube {
             -1.0f, -1.0f, 1.0f,
             1.0f, -1.0f, 1.0f
     };
+```
+```java
     public Cube() {
         ByteBuffer vbb = ByteBuffer.allocateDirect(vertices.length * 4);
         vbb.order(ByteOrder.nativeOrder());
