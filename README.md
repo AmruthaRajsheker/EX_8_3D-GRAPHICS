@@ -27,8 +27,7 @@ package com.example.ex08;
 import androidx.appcompat.app.AppCompatActivity;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
-```
-```java
+
 public class MainActivity extends AppCompatActivity {
     private GLSurfaceView glView;
     @Override
@@ -38,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
         glView.setRenderer(new MyGLRenderer(this));
         this.setContentView(glView);
     }
+```
+```java
     @Override
     protected void onPause() {
         super.onPause();
