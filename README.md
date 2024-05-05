@@ -129,6 +129,8 @@ class Pyramid {
             -1.0f, -1.0f, 1.0f,
             0.0f, 1.0f, 0.0f
     };
+```
+```java
     private float[] colors = {
             0.0f, 0.0f, 1.0f, 1.0f,
             0.0f, 1.0f, 0.0f, 1.0f,
