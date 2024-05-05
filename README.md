@@ -129,8 +129,6 @@ class Pyramid {
             -1.0f, -1.0f, 1.0f,
             0.0f, 1.0f, 0.0f
     };
-```
-```java
     private float[] colors = {
             0.0f, 0.0f, 1.0f, 1.0f,
             0.0f, 1.0f, 0.0f, 1.0f,
@@ -144,6 +142,8 @@ class Pyramid {
             0, 4, 1,
             4, 0, 3
     };
+```
+```java
     public Pyramid() {
         ByteBuffer vbb = ByteBuffer.allocateDirect(vertices.length * 4);
         vbb.order(ByteOrder.nativeOrder());
@@ -190,6 +190,8 @@ class Cube {
             {1.0f, 0.0f, 0.0f, 1.0f},
             {1.0f, 1.0f, 0.0f, 1.0f}
     };
+```
+```java
     private float[] vertices = {
             -1.0f, -1.0f, 1.0f,
             1.0f, -1.0f, 1.0f,
@@ -216,8 +218,6 @@ class Cube {
             -1.0f, -1.0f, 1.0f,
             1.0f, -1.0f, 1.0f
     };
-```
-```java
     public Cube() {
         ByteBuffer vbb = ByteBuffer.allocateDirect(vertices.length * 4);
         vbb.order(ByteOrder.nativeOrder());
