@@ -263,7 +263,7 @@ class Cube {
 ```
 ## OUTPUT:
 
-<img src="https://github.com/AmruthaRajsheker/EX_8_3D-GRAPHICS/assets/119475943/1e1d5405-2572-47bf-85f4-34d7937b0411" alt="description" style="width: 40%; height: auto;">
+<img src="https://github.com/AmruthaRajsheker/EX_8_3D-GRAPHICS/assets/119475943/1e1d5405-2572-47bf-85f4-34d7937b0411" alt="description" style="width: 30%; height: auto;">
 
 ## RESULT:
 Thus a Simple Android Application create and design an android application to draw a shapes using 3D graphics with openGL ES using Android Studio is developed and executed successfully.
