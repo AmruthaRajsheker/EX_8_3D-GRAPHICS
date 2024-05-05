@@ -7,27 +7,19 @@ Android Studio(Min. required Artic Fox)
 
 ## ALGORITHM:
 
-Step 1: Open Android Stdio and then click on File -> New -> New project.
-
-Step 2: Then type the Application name as “graphical″ and click Next. 
-
-Step 3: Then select the Minimum SDK as shown below and click Next.
-
-Step 4: Then select the Empty Activity and click Next. Finally click Finish.
-
-Step 5: Design layout in activity_main.xml. 
-
-Step 6: Draw basic object details give in MainActivity file. 
-
-Step 7: Save and run the application
+Step 1: Open Android Stdio and then click on File -> New -> New project. </br>
+Step 2: Then type the Application name as “graphical″ and click Next. </br>
+Step 3: Then select the Minimum SDK as shown below and click Next.</br>
+Step 4: Then select the Empty Activity and click Next. Finally click Finish. </br>
+Step 5: Design layout in activity_main.xml.  </br>
+Step 6: Draw basic object details give in MainActivity file. </br>
+Step 7: Save and run the application </br>
 
 ## PROGRAM:
 
-Program to create and design an android application to draw a shapes using 3D graphics with openGL ES.
-
-Developed by: Amrutha Rajsheker
-
-Registration Number : 212222110003
+Program to create and design an android application to draw a shapes using 3D graphics with openGL ES. </br>
+Developed by: Amrutha Rajsheker </br>
+Registration Number : 212222110003 </br>
 
 ### Mainactivity.java:
 ```java
@@ -35,6 +27,8 @@ package com.example.ex08;
 import androidx.appcompat.app.AppCompatActivity;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+```
+```java
 public class MainActivity extends AppCompatActivity {
     private GLSurfaceView glView;
     @Override
@@ -56,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+
 ### MyGLRenderer.java:
 ```java
 package com.example.ex08;
@@ -96,6 +91,8 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         gl.glMatrixMode(GL10.GL_MODELVIEW);
         gl.glLoadIdentity();
     }
+```
+```java
     @Override
     public void onDrawFrame(GL10 gl) {
         gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT);
@@ -113,6 +110,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     }
 }
 ```
+
 ### pyramid.java:
 ```java
 package com.example.ex08;
