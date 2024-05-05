@@ -80,8 +80,6 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         gl.glShadeModel(GL10.GL_SMOOTH);
         gl.glDisable(GL10.GL_DITHER);
     }
-```
-```java
     @Override
     public void onSurfaceChanged(GL10 gl, int width, int height) {
         if (height == 0) height = 1;
@@ -93,6 +91,8 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         gl.glMatrixMode(GL10.GL_MODELVIEW);
         gl.glLoadIdentity();
     }
+```
+```java
     @Override
     public void onDrawFrame(GL10 gl) {
         gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT);
